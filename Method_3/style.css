@@ -1,0 +1,40 @@
+/* Technique 1 */
+
+section {
+  text-align: center; /* To center the elements horizontally */
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  color: #fff;
+  margin: 3px;
+  display: inline-block; /* To put the elements in one line */
+}
+
+
+/* Technique 2 */
+
+/* section {
+  display: flex;
+  justify-content: center;
+} */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  color: #fff;
+  margin: 3px;
+} */
+
+/* Technique 3 */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  color: #fff;
+  margin: 3px auto;
+} */

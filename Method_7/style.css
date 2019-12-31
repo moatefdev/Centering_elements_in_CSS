@@ -1,0 +1,16 @@
+div {
+  width: 200px;
+  height: 300px;
+  color: #fff;
+  background-color: dodgerblue;
+  position: relative;
+}
+
+div p {
+  background-color: fuchsia;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  transform: translate(0, -50%);
+}

@@ -1,0 +1,16 @@
+div {
+  width: 50%;
+  height: 200px;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div p {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  background-color: fuchsia;
+  color: #fff;
+}

@@ -1,0 +1,21 @@
+body {font-size: 2em}
+
+header {
+  background-color: dodgerblue;
+  margin-bottom: 20px;
+  text-align: center; /* To center the text inside the header element */
+}
+
+nav {
+  text-align: center; /* To center the links inside the nav element */
+}
+
+nav a {
+  background-color: fuchsia;
+  text-decoration: none
+}
+
+header, nav a {
+  color: #fff;
+  padding: 5px;
+}

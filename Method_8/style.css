@@ -1,0 +1,16 @@
+div {
+  width: 200px;
+  height: 300px;
+  background-color: dodgerblue;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div p {
+  background-color: fuchsia;
+  padding: 20px;
+  height: 50px;
+  width: 100px;
+}

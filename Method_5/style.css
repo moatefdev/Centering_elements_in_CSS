@@ -1,0 +1,55 @@
+/****** PART 1 ******/
+
+table, .table-center, .flex-center {
+  width: 300px;
+  height: 250px;
+  background-color: dodgerblue;
+  font-size: 1.5em;
+  color: #fff;
+  margin: 10px;
+  float: left;
+}
+
+/* for table td element the default is vertical-align: middle; */
+
+.table-center {display: table;}
+
+.table-center p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/****** PART 2 ******/
+
+.ghost-center {
+  width: 300px;
+  background-color: dodgerblue;
+  font-size: 1.5em;
+  color: #fff;
+  margin: 10px;
+  float: left;
+}
+
+.ghost-center:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  width: 2px;
+  background-color: #000;
+  vertical-align: middle;
+}
+
+.ghost-center p {
+  color: #fff;
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  background-color: #00f;
+}

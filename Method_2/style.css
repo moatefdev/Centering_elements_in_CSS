@@ -1,0 +1,6 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  margin: 0 auto; /* auto: To center the element from the left and right sides of the element */
+}

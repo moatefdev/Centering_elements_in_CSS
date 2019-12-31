@@ -1,0 +1,17 @@
+div {
+  width: 130px;
+  height: 250px;
+  background-color: dodgerblue;
+  color: #fff;
+  position: relative;
+}
+
+div p {
+  height: 50px;
+  background-color: fuchsia;
+  position: absolute;
+  /* padding: 10px */
+  top: 50%;
+  margin-top: -25px;
+  /* margin-top: -35px; */
+}
